@@ -16,6 +16,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+license = "MIT"
+dependencies = [
+    "torch==1.13.1",
+    "timm==0.6.12"
+]
+keywords = [
+    "machine-learning", "deep-learning", "pytorch", "vision", "semantic-segmentation", "image-pixel-classification", "object-detection", "convnext", "unet"
+]
 
 [project.urls]
 "Homepage" = "https://github.com/pypa/sampleproject"
