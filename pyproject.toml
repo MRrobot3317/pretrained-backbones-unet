@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-license = "MIT"
+license = { text = "MIT" }
 dependencies = [
     "torch==1.13.1",
     "timm==0.6.12"
